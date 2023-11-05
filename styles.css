@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    background-color: #ffffff;
+  }
+
+
+
+.column {
+    flex: 1;
+    padding: 1.25rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+}
+
+.task-card {
+    position: relative;
+    margin: 20px 0;
+    padding: 0.625rem;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.2);
+   
+}
+
+.task__car--title {
+    font-size: 1rem;
+    background-color: #f9f9f9;
+
+}
+
+.task__car--controls {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 25px;
+    background-color: #f9f9f9;
+}
+
+.move-up {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    padding: 0.31rem 0.5rem;
+    cursor: pointer;
+    margin-left: 5px;
+   
+}
+
+.move-down {
+    background-color: #ff3700;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    padding: 0.3125rem 0.5rem;
+    cursor: pointer;
+    margin-left: 5px;
+   
+}
+
+.close-task {
+    position: absolute;
+    top: 5px; 
+    right: 5px;
+    background-color: #ed7979;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    padding: 0.31rem 0.5rem;
+    cursor: pointer;
+
+}
+
+.close-task:hover {
+    background-color: #ec8787;
+}
+
+#task-manager {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+}
+#task-form {
+    /* max-width: 25rem; */
+    width: 30%;
+    margin: 20px 10px;
+    padding: 0.625rem;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: flex;  
+    align-items:  center;
+}
+
+#task-input:focus {
+    outline: none; 
+}
+
+#task-input {
+    width: 90%;
+    padding: 0.625rem;
+    display: flex;
+    margin-right: 10px;
+    border: none;
+  
+}
+
+#add-task {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    padding: 0.625rem 1.25rem;
+    cursor: pointer;
+    margin-top: 10px;
+    display: flex;
+    align-items:  center;
+    margin: 20px 10px;
+}
+
+#add-task:hover {
+    background-color: #0056b3;
+}
